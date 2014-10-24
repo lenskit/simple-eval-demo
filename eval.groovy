@@ -3,7 +3,7 @@ import org.grouplens.lenskit.transform.normalize.*
 
 trainTest {
     dataset crossfold("ml-100k") {
-        source csvfile("u.data") {
+        source csvfile("ml-100k/u.data") {
             delimiter "\t"
             domain {
                 minimum 1.0
